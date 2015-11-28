@@ -1,7 +1,7 @@
 name: ExcellenceEntertainment
 favicon: null
 layout_spectrum: 1
-typography_spectrum: 0.74206
+typography_spectrum: 0.74603
 cta:
   domain: null
   bucket: null
@@ -22,7 +22,7 @@ color:
     - '#dbdad8'
     - '#80888b'
   brandStrength: 0.375
-  lightness: 0.4375
+  lightness: 0.25
   saturation: 0.875
   rhythmicContrast: 1
 purpose: []
