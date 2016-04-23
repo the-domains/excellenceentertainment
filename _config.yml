@@ -1,28 +1,40 @@
-name: ExcellenceEntertainment
 favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.74603
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: ExcellenceEntertainment
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.3476703
+  brandStrength: 0.375
+  lightness: 0
   brandColors:
     - '#000000'
     - '#ffffff'
     - '#28282a'
     - '#dbdad8'
     - '#80888b'
-  brandStrength: 0.375
-  lightness: 0.25
-  saturation: 0.875
-  rhythmicContrast: 1
-purpose: []
+  rhythmicContrast: 0
+typography_spectrum: 0.74603
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
