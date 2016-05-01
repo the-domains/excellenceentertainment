@@ -1,5 +1,4 @@
-favicon: null
-name: ExcellenceEntertainment
+layout_spectrum: 1
 opengraph:
   image: null
   type: null
@@ -10,16 +9,16 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 0.3476703
-  brandStrength: 0.375
+  brandStrength: 1
   lightness: 0
   brandColors:
     - '#000000'
@@ -27,14 +26,15 @@ color:
     - '#28282a'
     - '#dbdad8'
     - '#80888b'
-  rhythmicContrast: 0
+  rhythmicContrast: 1
 typography_spectrum: 0.74603
 cta:
   bucket: null
   version: null
   domain: null
-layout_spectrum: 1
 analytics:
   twitter: null
   google: null
   facebook: null
+favicon: null
+name: ExcellenceEntertainment
